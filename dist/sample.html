@@ -1,0 +1,18 @@
+
+<!doctype html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barcode</title>
+    <script src="https://cdn.jsdelivr.net/npm/gpu.js@latest/dist/gpu-browser.min.js"></script>
+    <script type="module" src="./Code128Reader.js"></script>
+    <script type="module" src="./sample.js"></script>
+</head>
+<body>
+<video muted autoplay playsinline id="video" class="huga" style="display:none;width:1px;height:1px"></video>
+<div id="result"></div>
+<canvas id="canvas" style="display:block;width:100%"></canvas>
+<div id="log"> </div>
+</body>
+</html>
